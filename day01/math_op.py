@@ -1,16 +1,21 @@
 #산술 연산자
-print(9000-8000)
-print(2000//2)
-print(600+400)
-print(4000/4)
-print(200*5)
-print(400*2.5)
+print("10 + 4 =", 10 + 4)
+print("10 - 4 =", 10 - 4)
+print("10 * 4 =", 10 * 4)
+print("10 / 4 =", 10 / 4)
+print("10 // 4 =", 10 // 4)  #몫
+print("10 % 4 =", 10 // 4)   #나머지
+print("10 ** 4 =", 10 ** 4)  #10의 4제곱
 
+# 도형의 면적
+# 1. 한변의 길이가 5인 정사각형의 넓이
 size = 5
-hight = 7
-area = size*hight/2
-print(area)
+area1 = size * size
+print("정사각형의 넓이 :", area1)
 
-x = 10
-area = x * x * 3.14
-print(area)
+# 2. 한변의 길이가 5이고, 높이가 7인 삼각형의 넓이
+w = 7
+h = 5
+area2 = (w * h) / 2
+
+print("삼각형의 넓이 : ", area2)

@@ -1,3 +1,18 @@
-Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
-print (10)
+# 자료형 입력
+# 숫자
+print(10)
+print(10 + 11)
+print(3.312)
+print(0.5 * 12)
+
+
+#문자
+print("sky")
+print("Hava a good day")
+print("3" + "4")
+print(str(3) + "4")
+
+#bool(논리)
+print(4 > 5)
+print(4 == 5)
+print(4 != 5)
