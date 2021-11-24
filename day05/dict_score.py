@@ -11,7 +11,20 @@ for s in students:
     print("%s %d %.1f" % (s['name'], sum_v, avg))
 
 sum_kor = 0
+sum_math = 0
+sum_eng = 0
+
     for s in students:
         sum_kor += s['kor']
 
-print("국어 합계 : %d점" % sum_kor)
+print("국어 합계 : %d점" % sum_kor, avg)
+
+
+sum_kor = 0
+sum_math = 0
+sum_eng = 0
+
+for s in students:
+    sum_kor += s['kor']
+    sum_math += s['math']
+    sum_eng += s['eng']
