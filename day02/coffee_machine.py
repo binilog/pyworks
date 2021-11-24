@@ -1,27 +1,3 @@
-# print("========================================")
-# coffee = 5
-# price = 400
-# while True:
-#     money = int(input("돈을 넣어주세요(한잔에 400원)"))
-#
-#     if money == price:
-#         print("커피가 나옵니다.")
-#         coffee = coffee - 1
-#         print("남은 커피의 양은 ", coffee, "개입니다.")
-#         print()
-#
-#     elif money > price:
-#         print("커피가 나옵니다. 거스름돈은", (money - price),"원입니다.")
-#         coffee -= 1
-#         print("남은 커피의 양은 ", coffee, "개입니다.")
-#         print()
-#     elif money < price:
-#         print("돈이 부족합니다.")
-#         print("남은 커피의 양은 ", coffee, "개입니다.")
-#         print()
-#     if coffee == 0:
-#             print("커피가 없습니다.")
-#             break
 # 커피 자판기 프로그램
 # 가격 : 400원, 커피의 총개수 : 5개
 
@@ -42,4 +18,3 @@ while True:
     if coffee == 0:
         print("커피가 모두 소진되었습니다. 판매를 중지합니다.")
         break
-        
