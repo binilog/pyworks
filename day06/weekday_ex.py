@@ -9,4 +9,3 @@ print(days[today])
 theday = datetime.date(2021, 10, 26).weekday()
 print(days[theday])
 calendar.prmonth(2021, 10)
-

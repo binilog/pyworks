@@ -6,8 +6,8 @@ print(datetime.datetime.today())
 print(datetime.date.today())
 
 now = datetime.datetime.today()
-print("{}년".format(now.year))
-print("{}월".format(now.month))
+print("{}년".format(now.year)),print("{}월".format(now.month))
+
 print("{}일".format(now.day))
 
 print("{}년 {}월 {}일".format(now.year, now.month, now.day))
