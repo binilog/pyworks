@@ -1,4 +1,23 @@
 #include
 void main(){
-    printf("ABC")
+    printf{"HELLO"}
+
+    void{}
+    void{}
+    void{}
+    void{}
+    int{
+            for for
+
+        ul li
+
+
+
+
+
+
+
+
+        }
+
 }
